@@ -6,7 +6,7 @@
 
 | 首页 | 拯救苹果模式 | 太空大战模式 | 演示视频 |
 |---|---|---| --- |
-| <img src="./docs/assets/项目运行效果_1.png" alt="首页" width="260"> | <img src="./docs/assets/项目运行效果_2.png" alt="拯救苹果模式" width="260"> | <img src="./docs/assets/项目运行效果_3.png" alt="太空大战模式" width="260"> | <img src="./docs/assets/demo.gif" width="260" />
+| <img src="./docs/assets/home.png" alt="首页" width="260"> | <img src="./docs/assets/saveapple.png" alt="拯救苹果模式" width="260"> | <img src="./docs/assets/spacewar.png" alt="太空大战模式" width="260"> | <img src="./docs/assets/demo.gif" width="260" />
 
 
 ## Features
