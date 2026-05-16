@@ -362,7 +362,7 @@ private:
         painter.setPen(QColor(255, 255, 255));
         painter.drawText(QRect(140, 25, 420, 52),
                          Qt::AlignVCenter | Qt::AlignLeft,
-                         QStringLiteral("金山打字通 TypeGame"));
+                         QStringLiteral("打字游戏 TypeGame"));
     }
 
     void drawHeroText(QPainter& painter)
