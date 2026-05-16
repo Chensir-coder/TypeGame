@@ -1,0 +1,36 @@
+{
+    "game": "spacewar",
+    "config": {
+        "speedLevel": 8,
+        "maxAppleCount": 5,
+        "targetSuccessCount": 30,
+        "maxMissCount": 6,
+        "failLineY": 720
+    },
+    "testCases": [
+        {
+            "name": "precision_shoot_high_speed",
+            "letters": "QWERTYUIOPASDFGHJKLZXCVBNM",
+            "correctRounds": 12,
+            "errorRounds": 0
+        },
+        {
+            "name": "mixed_pressure_bottom_escape",
+            "letters": "AZBYCXDWEVFUGTHSIRJQKPLOMN",
+            "correctRounds": 10,
+            "errorRounds": 1
+        },
+        {
+            "name": "boundary_health_after_miss",
+            "letters": "MNOPQRSTUVWXYZABCDEFGHIJKL",
+            "correctRounds": 8,
+            "errorRounds": 1
+        },
+        {
+            "name": "long_sequence_stability",
+            "letters": "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ",
+            "correctRounds": 20,
+            "errorRounds": 1
+        }
+    ]
+}

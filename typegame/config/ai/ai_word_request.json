@@ -1,0 +1,26 @@
+{
+  "url": "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+  "responseKind": "chat_completions",
+  "timeoutMs": 8000,
+  "stream": false,
+  "headers": {
+    "Authorization": "Bearer ${ARK_API_KEY}",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "model": "ep-20260505195942-p89gf",
+    "temperature": 1.1,
+    "top_p": 0.92,
+    "max_tokens": 16,
+    "messages": [
+      {
+        "role": "system",
+        "content": "{{SYSTEM_PROMPT}}"
+      },
+      {
+        "role": "user",
+        "content": "{{USER_PROMPT}}"
+      }
+    ]
+  }
+}

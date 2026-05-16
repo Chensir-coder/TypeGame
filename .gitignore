@@ -1,0 +1,18 @@
+build/
+build-ninja/
+.vs
+*.zip
+out/
+.vscode/
+.clangd
+.envs
+compile_flags.txt
+_build/
+
+
+
+# Personal notes
+# 总结.md
+
+# Optional: ignore if this is personal-only
+# .clangd

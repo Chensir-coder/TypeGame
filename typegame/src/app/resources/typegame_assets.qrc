@@ -1,0 +1,72 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="config/configureSettings.json">../../common/service/config/configureSettings.json</file>
+        <file alias="config/ai/ai_word_request.json">../../../config/ai/ai_word_request.json</file>
+        <file>Common/Images/CANCEL.png</file>
+        <file>Common/Images/DEFAULT.png</file>
+        <file>Common/Images/MAIN_DLG_BG.png</file>
+        <file>Common/Images/MAIN_DLG_EXIT.png</file>
+        <file>Common/Images/MAIN_DLG_REPLAY.png</file>
+        <file>Common/Images/NO.png</file>
+        <file>Common/Images/OK.png</file>
+        <file>Common/Images/PUBLIC_END.png</file>
+        <file>Common/Images/PUBLIC_EXIT.png</file>
+        <file>Common/Images/PUBLIC_PAUSE.png</file>
+        <file>Common/Images/PUBLIC_SETUP.png</file>
+        <file>Common/Images/PUBLIC_START.png</file>
+        <file>Common/Images/SLIDER_BG.png</file>
+        <file>Common/Images/SLIDER_SLIDER.png</file>
+        <file>Common/Images/YES.png</file>
+
+        <file>Common/Sounds/ANIBTN_CLICK.wav</file>
+        <file>Common/Sounds/ANIBTN_ENTER.wav</file>
+        <file>Common/Sounds/BTN_CLICK.wav</file>
+        <file>Common/Sounds/GLIDE.wav</file>
+        <file>Common/Sounds/TYPE.wav</file>
+
+        <file>Apple/Images/APPLE_BACKGROUND.png</file>
+        <file>Apple/Images/APPLE_BAD.png</file>
+        <file>Apple/Images/APPLE_BASKET.png</file>
+        <file>Apple/Images/APPLE_DLG_BG.png</file>
+        <file>Apple/Images/APPLE_DLG_END.png</file>
+        <file>Apple/Images/APPLE_DLG_NEXT.png</file>
+        <file>Apple/Images/APPLE_DLG_REPLAY.png</file>
+        <file>Apple/Images/APPLE_NORMAL.png</file>
+        <file>Apple/Images/APPLE_SETUP.png</file>
+        <file>Apple/Images/APPLE_SMALL.png</file>
+
+        <file>Apple/Sounds/APPLE_BG.wav</file>
+        <file>Apple/Sounds/APPLE_IN.wav</file>
+
+        <file>Spacewar/Images/APPLE_SETUP.png</file>
+        <file>Spacewar/Images/CHECKBOX_BUTTON.png</file>
+        <file>Spacewar/Images/SPACE_BACKGROUND.png</file>
+        <file>Spacewar/Images/SPACE_BOMB.png</file>
+        <file>Spacewar/Images/SPACE_CAPTION_BACK.png</file>
+        <file>Spacewar/Images/SPACE_ENEMY_0.png</file>
+        <file>Spacewar/Images/SPACE_ENEMY_4.png</file>
+        <file>Spacewar/Images/SPACE_EXIT.png</file>
+        <file>Spacewar/Images/SPACE_EXPLOSION_0.png</file>
+        <file>Spacewar/Images/SPACE_HISCORE.png</file>
+        <file>Spacewar/Images/SPACE_HISCORE_BG.png</file>
+        <file>Spacewar/Images/SPACE_LABEL_LIFE.png</file>
+        <file>Spacewar/Images/SPACE_LABEL_SCORE.png</file>
+        <file>Spacewar/Images/SPACE_LABEL_TIME.png</file>
+        <file>Spacewar/Images/SPACE_LIFE.png</file>
+        <file>Spacewar/Images/SPACE_LIFE_OVER.png</file>
+        <file>Spacewar/Images/SPACE_MAINMENU_BG.png</file>
+        <file>Spacewar/Images/SPACE_OPTION.png</file>
+        <file>Spacewar/Images/SPACE_RETURN.png</file>
+        <file>Spacewar/Images/SPACE_REWARD.png</file>
+        <file>Spacewar/Images/SPACE_SHIP.png</file>
+        <file>Spacewar/Images/SPACE_STARS.png</file>
+        <file>Spacewar/Images/SPACE_START.png</file>
+
+        <file>Spacewar/Sounds/SPACE_BG.wav</file>
+        <file>Spacewar/Sounds/SPACE_BLAST.wav</file>
+        <file>Spacewar/Sounds/SPACE_PLANEOUT.wav</file>
+        <file>Spacewar/Sounds/SPACE_SHOOT.wav</file>
+        <file>Spacewar/Sounds/SPACE_WORDOUT.wav</file>
+        <file>Spacewar/Sounds/UPGRADE.wav</file>
+    </qresource>
+</RCC>
