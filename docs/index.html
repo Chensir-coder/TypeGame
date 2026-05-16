@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QtTypingGamePlatform | Qt/C++ 打字训练游戏平台</title>
+  <meta name="description" content="基于 Qt / C++ 的模块化打字训练游戏平台，支持拯救苹果和太空大战两种游戏模式。" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">QtTypingGamePlatform</div>
+      <div class="nav-links">
+        <a href="#demo">项目演示</a>
+        <a href="#features">功能亮点</a>
+        <a href="#architecture">架构设计</a>
+        <a href="#stack">技术栈</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">Qt / C++ · MVC · AI Word Service</p>
+      <h1>模块化打字训练游戏平台</h1>
+      <p class="subtitle">
+        基于 Qt / C++ 开发，支持“拯救苹果”和“太空大战”两种游戏模式。
+        项目封装了通用打字游戏框架，并结合对象池、观察者模式、异步服务和 AI 奖励词生成模块。
+      </p>
+      <div class="hero-actions">
+        <a class="btn primary" href="https://github.com/Chensir-coder/TypeGame" target="_blank" rel="noopener noreferrer">
+          查看 GitHub 仓库
+        </a>
+        <a class="btn secondary" href="#demo">查看项目演示</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="demo" class="section">
+      <div class="section-title">
+        <p>Demo</p>
+        <h2>项目演示</h2>
+      </div>
+
+      <div class="demo-card">
+        <img src="./assets/demo.gif" alt="项目演示 GIF" />
+      </div>
+
+      <div class="screenshots">
+        <article class="shot-card">
+          <img src="./assets/home.png" alt="首页" />
+          <h3>首页</h3>
+          <p>提供游戏模式入口与基础操作流程。</p>
+        </article>
+
+        <article class="shot-card">
+          <img src="./assets/saveapple.png" alt="拯救苹果模式" />
+          <h3>拯救苹果模式</h3>
+          <p>通过输入单词完成下落目标的识别与得分。</p>
+        </article>
+
+        <article class="shot-card">
+          <img src="./assets/spacewar.png" alt="太空大战模式" />
+          <h3>太空大战模式</h3>
+          <p>包含敌机移动、子弹追踪、碰撞检测、难度升级等实时交互逻辑。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="section-title">
+        <p>Features</p>
+        <h2>核心功能</h2>
+      </div>
+
+      <div class="feature-grid">
+        <div class="feature-item">
+          <h3>双游戏模式</h3>
+          <p>支持“拯救苹果”和“太空大战”两种玩法，并复用通用输入检测、计分和状态管理逻辑。</p>
+        </div>
+        <div class="feature-item">
+          <h3>MVC 分层架构</h3>
+          <p>拆分 Model / View / Controller，降低 UI、业务状态和流程控制之间的耦合。</p>
+        </div>
+        <div class="feature-item">
+          <h3>事件与对象管理</h3>
+          <p>使用观察者模式处理游戏事件通知，使用对象池减少游戏实体频繁创建和销毁开销。</p>
+        </div>
+        <div class="feature-item">
+          <h3>AI 奖励词生成</h3>
+          <p>接入大模型 API 生成奖励词，并设计本地词库降级机制，提升功能稳定性。</p>
+        </div>
+        <div class="feature-item">
+          <h3>异步服务</h3>
+          <p>日志、音频、埋点等能力采用异步方式处理，减少对主游戏循环和 UI 响应的影响。</p>
+        </div>
+        <div class="feature-item">
+          <h3>自动化测试</h3>
+          <p>提供命令行测试入口与 Google Test 单元测试，便于验证核心逻辑。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="architecture" class="section">
+      <div class="section-title">
+        <p>Architecture</p>
+        <h2>架构设计</h2>
+      </div>
+
+      <div class="architecture">
+        <div class="arch-layer">
+          <span>View</span>
+          <p>负责界面绘制、动画展示和用户交互。</p>
+        </div>
+        <div class="arch-arrow">↓</div>
+        <div class="arch-layer">
+          <span>Controller</span>
+          <p>负责输入处理、游戏流程控制和信号转发。</p>
+        </div>
+        <div class="arch-arrow">↓</div>
+        <div class="arch-layer">
+          <span>Model</span>
+          <p>负责游戏状态、实体管理、计分和规则判断。</p>
+        </div>
+        <div class="arch-arrow">↓</div>
+        <div class="arch-layer">
+          <span>Service</span>
+          <p>负责日志、音频、AI 单词生成和数据埋点等通用能力。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="stack" class="section">
+      <div class="section-title">
+        <p>Tech Stack</p>
+        <h2>技术栈</h2>
+      </div>
+
+      <div class="tags">
+        <span>C++17</span>
+        <span>Qt 5 / Qt 6</span>
+        <span>CMake</span>
+        <span>Google Test</span>
+        <span>Qt Network</span>
+        <span>MVC</span>
+        <span>Observer</span>
+        <span>Factory</span>
+        <span>Object Pool</span>
+        <span>AI API</span>
+      </div>
+    </section>
+
+    <section class="section cta">
+      <h2>项目源码与详细说明</h2>
+      <p>
+        如果想了解具体目录结构、构建方式和模块实现，可以查看 GitHub 仓库中的 README 与项目详细说明文档。
+      </p>
+      <a class="btn primary" href="https://github.com/Chensir-coder/TypeGame" target="_blank" rel="noopener noreferrer">
+        前往 GitHub
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>QtTypingGamePlatform · Qt/C++ Project Demo</p>
+  </footer>
+</body>
+</html>

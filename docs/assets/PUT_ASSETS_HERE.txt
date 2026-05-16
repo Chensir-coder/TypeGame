@@ -1,0 +1,1 @@
+Copy your images/GIF here and rename them to: home.png, saveapple.png, spacewar.png, demo.gif

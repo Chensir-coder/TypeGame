@@ -6,7 +6,7 @@
 
 | 首页 | 拯救苹果模式 | 太空大战模式 | 演示视频 |
 |---|---|---| --- |
-| <img src="./data/figures/项目运行效果_1.png" alt="首页" width="260"> | <img src="./data/figures/项目运行效果_2.png" alt="拯救苹果模式" width="260"> | <img src="./data/figures/项目运行效果_3.png" alt="太空大战模式" width="260"> | <img src="./data/video/demo.gif" width="260" />
+| <img src="./docs/assets/项目运行效果_1.png" alt="首页" width="260"> | <img src="./docs/assets/项目运行效果_2.png" alt="拯救苹果模式" width="260"> | <img src="./docs/assets/项目运行效果_3.png" alt="太空大战模式" width="260"> | <img src="./docs/assets/demo.gif" width="260" />
 
 
 ## Features
@@ -101,15 +101,15 @@ cd TypeGame
 ```
 1. 在 [顶层CMakeLists.txt](./CMakeLists.txt) 中配置 cmake 编译所需要的第三方编译工具链(Qt、Google Test)，换为自己的地址
 
-<img src="./data/figures/配置工具链位置.png" width="80%">
+<img src="./docs/assets/配置工具链位置.png" width="80%">
 
 并在[具体编译CMakeLists.txt](./typegame/CMakeLists.txt)中相应位置修改自己的第三方工具编译工具
 
-<img src="./data/figures/工具链位置改写_1.png" width="40%"><img src="./data/figures/工具链位置改写_2.png" width="40%">
+<img src="./docs/assets/工具链位置改写_1.png" width="40%"><img src="./data/figures/工具链位置改写_2.png" width="40%">
 
 如需使用 ai 奖励词服务，[此处](./typegame/config/ai/ai_word_request.json) 需配置 api 内容
 
-<img src="./data/figures/ai配置.png" width="50%">
+<img src="./docs/assets/ai配置.png" width="50%">
 
 配置好之后， 双击 build_win.bat 编译运行。
 
